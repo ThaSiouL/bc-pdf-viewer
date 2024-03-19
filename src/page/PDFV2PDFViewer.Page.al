@@ -1,4 +1,7 @@
-page 81751 "PDFV2 PDF Viewer"
+namespace Pino.PDFViewer2;
+using System.Text;
+
+page 81751 "PDF Viewer"
 {
     Caption = 'PDF Viewer';
     PageType = Card;
@@ -10,7 +13,7 @@ page 81751 "PDFV2 PDF Viewer"
             group(General)
             {
                 ShowCaption = false;
-                usercontrol(PDFViewer; "PDFV2 PDF Viewer")
+                usercontrol(PDFViewer; "PDF Viewer")
                 {
                     ApplicationArea = All;
 
@@ -31,5 +34,4 @@ page 81751 "PDFV2 PDF Viewer"
 
     var
         PDFAsTxt: Text;
-        PDFAliasLbl: Label 'data:application/pdf;base64,', Locked = true;
 }
