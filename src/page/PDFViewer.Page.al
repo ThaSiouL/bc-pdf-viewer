@@ -25,6 +25,12 @@ page 81751 "PDF Viewer"
             }
         }
     }
+
+    trigger OnOpenPage()
+    begin
+        if PDFAsTxt = '' then
+            Error(NoPDFErr);
+    end;
     procedure SetPDFDocument(PDFInStream: InStream)
     var
         Base64Convert: Codeunit "Base64 Convert";
@@ -34,4 +40,5 @@ page 81751 "PDF Viewer"
 
     var
         PDFAsTxt: Text;
+        NoPDFErr: Label 'No PDF to display';
 }
