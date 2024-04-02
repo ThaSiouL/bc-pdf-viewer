@@ -1,13 +1,14 @@
 namespace Pino.PDFViewer2;
 using System.Text;
 
-page 81751 "PDF Viewer"
+page 81752 "PDF Viewer Part"
 {
     Caption = 'Document Viewer';
-    PageType = Card;
+    PageType = CardPart;
     UsageCategory = None;
-    InherentEntitlements = X;
     InherentPermissions = X;
+    InherentEntitlements = X;
+
     layout
     {
         area(content)
@@ -33,6 +34,7 @@ page 81751 "PDF Viewer"
         if PDFAsTxt = '' then
             Error(NoPDFErr);
     end;
+
     procedure SetPDFDocument(PDFInStream: InStream)
     var
         Base64Convert: Codeunit "Base64 Convert";

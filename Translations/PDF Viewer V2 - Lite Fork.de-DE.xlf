@@ -1,20 +1,38 @@
 <?xml version="1.0" encoding="utf-8"?>
 <xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
-  <file datatype="xml" source-language="en-US" target-language="de-DE" original="PDF Viewer V2 - Lite Fork.g.xlf">
+  <file datatype="xml" source-language="en-US" target-language="de-DE" original="PDF Viewer V2 - Lite Fork">
     <body>
       <group id="body">
         <trans-unit id="Page 1108314396 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>PDF Viewer</source>
-          <target>PDF Viewer</target>
+          <source>Document Viewer</source>
+          <target state="needs-adaptation">Dokumentenansicht</target>
+          <note from="XLIFF Sync" annotates="general" priority="1">Source text has changed. Please review the translation.</note>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PDF Viewer - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1108314396 - NamedType 2267809218" size-unit="char" translate="yes" xml:space="preserve">
+          <source>No PDF to display</source>
+          <target state="needs-translation">Kein PDF zum Anzeigen gefunden.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PDF Viewer - NamedType NoPDFErr</note>
+        </trans-unit>
+        <trans-unit id="Page 3617064313 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Document Viewer</source>
+          <target state="needs-translation">Dokumentenansicht</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PDF Viewer Part - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3617064313 - NamedType 2267809218" size-unit="char" translate="yes" xml:space="preserve">
+          <source>No PDF to display</source>
+          <target state="needs-translation">Kein PDF zum Anzeigen gefunden.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">Translated with Xliff Editor</note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page PDF Viewer - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PDF Viewer Part - NamedType NoPDFErr</note>
         </trans-unit>
         <trans-unit id="PermissionSet 1108314396 - Property 2879900210" maxwidth="30" size-unit="char" translate="yes" xml:space="preserve">
           <source>PDF Viewer</source>
           <target>[NAB: SUGGESTION]PDF Viewer</target>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">Suggestion added from 'Page 1108314396 - Property 2879900210'</note>
           <note from="Xliff Generator" annotates="general" priority="3">PermissionSet PDF Viewer - Property Caption</note>
         </trans-unit>
       </group>
