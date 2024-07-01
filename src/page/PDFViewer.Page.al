@@ -8,6 +8,7 @@ page 81751 "PDF Viewer"
     UsageCategory = None;
     InherentEntitlements = X;
     InherentPermissions = X;
+    DataCaptionExpression = Description;
     layout
     {
         area(content)
@@ -40,7 +41,13 @@ page 81751 "PDF Viewer"
         PDFAsTxt := Base64Convert.ToBase64(PDFInStream);
     end;
 
+    procedure SetDescription(NewDescription: Text)
+    begin
+        Description := NewDescription;
+    end;
+
     var
         PDFAsTxt: Text;
+        Description: Text;
         NoPDFErr: Label 'No PDF to display';
 }
